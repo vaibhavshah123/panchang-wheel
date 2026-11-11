@@ -674,29 +674,6 @@ GET /api/transits?from=2026-11-10&to=2027-06-30&bodies=Jupiter,Saturn&types=sign
 
 ---
 
-## 16. Publishing on GitHub
-
-### Option A: with the web interface (no command line)
-
-1. Create a free GitHub account if you do not have one, then choose **New repository**. Name it `panchang-wheel`, set it to **Public**, and leave **Add a README file** unticked (this repository brings its own). Create it.
-2. On the new repository page choose **uploading an existing file**, then drag in **everything inside the unzipped `panchang-wheel` folder**, including the hidden `.github` and `docs/.nojekyll` items. Commit the files.
-3. Open **Settings**, then **Pages**. Under **Build and deployment** choose **Deploy from a branch**, pick the `main` branch and the `/docs` folder, and save.
-4. After a minute the page is live at `https://YOUR-USERNAME.github.io/panchang-wheel/`.
-5. Edit `README.md` and `LICENSE`: replace `YOUR-USERNAME` and `YOUR NAME`.
-
-### Option B: with git
-
-```bash
-cd panchang-wheel
-git init -b main
-git add .
-git commit -m "Initial commit: Panchang wheel and API"
-git remote add origin https://github.com/YOUR-USERNAME/panchang-wheel.git
-git push -u origin main
-```
-
-Then do steps 3 to 5 above.
-
 ### Custom domain
 
 In **Settings, Pages, Custom domain**, enter your domain and add the DNS record GitHub shows. Tick **Enforce HTTPS** once it is available.
@@ -712,7 +689,7 @@ The page and the API contain the same calculations in two places: inside `docs/i
 ### Embedding the page in another site
 
 ```html
-<iframe src="https://YOUR-USERNAME.github.io/panchang-wheel/"
+<iframe src="https://vaibhavshah123.github.io/panchang-wheel/"
         title="Panchang wheel"
         style="width:100%;height:1100px;border:0"
         loading="lazy"></iframe>
