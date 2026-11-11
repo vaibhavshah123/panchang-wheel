@@ -2,7 +2,7 @@
 
 An interactive sky wheel and open API for the **Panchang**, the Hindu almanac. Pick any date and time and see where the nine grahas stand in the sidereal zodiac, which tithi, nakshatra, yoga and karana are running, which Hindu and English month it is, and how the same moment looks in a North Indian chart.
 
-**Live demo:** `https://YOUR-USERNAME.github.io/panchang-wheel/` (replace after you publish, see [Publishing on GitHub](#16-publishing-on-github))
+**Live demo:** `https://vaibhavshah123.github.io/panchang-wheel`
 
 ![The sky wheel](docs/img/wheel.png)
 
